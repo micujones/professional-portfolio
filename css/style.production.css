@@ -1,0 +1,398 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    background-color: #191e25;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+main {
+    padding: 16px;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 24px;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+button {
+    color: #121212;
+    background-color: #9dc3f9;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+    -webkit-transition: color 0.2s, background-color 0.2s;
+    -o-transition: color 0.2s, background-color 0.2s;
+    transition: color 0.2s, background-color 0.2s;
+}
+
+.button {
+    color: #121212;
+    background-color: #9dc3f9;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+    -webkit-transition: color 0.2s, background-color 0.2s;
+    -o-transition: color 0.2s, background-color 0.2s;
+    transition: color 0.2s, background-color 0.2s;
+}
+
+.button {
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #1f43f4;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #1f43f4;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* page header section */
+.page-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 8px 15px;
+}
+
+/* .page-header__item {
+
+} */
+
+.navigation-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.navigation-list li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+    -webkit-transition: scale 0.5s;
+    -o-transition: scale 0.5s;
+    transition: scale 0.5s;
+}
+
+.navigation-list a {
+    opacity: 0.4;
+    -webkit-transition: opacity 0.8s;
+    -o-transition: opacity 0.8s;
+    transition: opacity 0.8s;
+}
+
+.navigation-list li:hover {
+    scale: 1.1;
+}
+
+.navigation-list a:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+
+#current-page,
+#current-page:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+/* footer section */
+.page-footer {
+    clear: both;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.social-media {
+    gap: 8px;
+}
+
+/* HOME PAGE */
+
+/* profile section */
+.profile {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.profile__portrait {
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-right: 40px;
+}
+
+/* ABOUT ME PAGE */
+.about-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+
+@-webkit-keyframes color-change {
+    0% {
+        fill: #f76414;
+        stroke: #f76414;
+      }
+      50% {
+        fill: #edc655;
+        stroke: #edc655;
+      }
+      100% {
+        fill: #fcffad;
+        stroke: #fcffad;
+      }
+}
+
+@keyframes color-change {
+    0% {
+        fill: #f76414;
+        stroke: #f76414;
+      }
+      50% {
+        fill: #edc655;
+        stroke: #edc655;
+      }
+      100% {
+        fill: #fcffad;
+        stroke: #fcffad;
+      }
+}
+
+@-webkit-keyframes cloud-move {
+    from {
+        -webkit-transform: translate(100px, 25px);
+                transform: translate(100px, 25px);
+    }
+    to {
+        -webkit-transform: translate(30px, 25px);
+                transform: translate(30px, 25px);
+    }
+}
+
+@keyframes cloud-move {
+    from {
+        -webkit-transform: translate(100px, 25px);
+                transform: translate(100px, 25px);
+    }
+    to {
+        -webkit-transform: translate(30px, 25px);
+                transform: translate(30px, 25px);
+    }
+}
+
+@-webkit-keyframes cloud-move-reverse {
+    from {
+        -webkit-transform: translate(150px, 48px);
+                transform: translate(150px, 48px);
+    }
+    to {
+        -webkit-transform: translate(450px, 48px);
+                transform: translate(450px, 48px);
+    }
+}
+
+@keyframes cloud-move-reverse {
+    from {
+        -webkit-transform: translate(150px, 48px);
+                transform: translate(150px, 48px);
+    }
+    to {
+        -webkit-transform: translate(450px, 48px);
+                transform: translate(450px, 48px);
+    }
+}
+
+.sun, .ray {
+    -webkit-animation: 25s color-change infinite alternate linear;
+            animation: 25s color-change infinite alternate linear;
+}
+
+.cloud-one {
+    -webkit-animation: 30s cloud-move infinite alternate linear;
+            animation: 30s cloud-move infinite alternate linear;
+}
+
+.cloud-two {
+    -webkit-animation: 10s cloud-move-reverse infinite alternate linear;
+            animation: 10s cloud-move-reverse infinite alternate linear;
+}
+
+@-webkit-keyframes twinkle {
+    from {
+        fill: #85b8e6;
+    }
+    to {
+        fill: #fff;
+    }
+}
+
+@keyframes twinkle {
+    from {
+        fill: #85b8e6;
+    }
+    to {
+        fill: #fff;
+    }
+}
+
+.star-1 {
+    -webkit-animation: twinkle 3s linear alternate infinite;
+            animation: twinkle 3s linear alternate infinite;
+}
+
+.star-2 {
+    animation: twinkle 1.5s linear alternate infinite reverse;
+}
+
+.star-3 {
+    -webkit-animation: twinkle 6s linear alternate infinite;
+            animation: twinkle 6s linear alternate infinite;
+}
+
+/* WORK PAGE */
+.project-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 16px 1fr 16px 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+}
+
+.project-grid__item {
+    background-color: #2e3339;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+@media all and (max-width: 500px) {
+    .project-grid {
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+    }
+}
+
+@media all and (min-width: 500px) and (max-width: 750px){
+    .project-grid {
+        -ms-grid-columns: 1fr 16px 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .project-grid {
+        grid-gap: 10px;
+    }
+    .project-grid__item:last-child {
+        grid-column: auto / auto;
+        grid-row: auto / auto;
+    }
+}
+
+/* CONTACT PAGE */
+form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #2e3339;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 16px;
+    margin: 0 auto;
+    border-radius: 8px;
+    gap: 16px;
+}
+
+form > h2 {
+    margin: 0px;
+}
+
+.email-phone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 8px;
+       -moz-column-gap: 8px;
+            column-gap: 8px;
+}
+
+.label-input-pair {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 4px;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+}
+
+.label-input-pair > textarea {
+    min-width: 400px;
+    max-width: 400px;
+    height: 100px;
+}
