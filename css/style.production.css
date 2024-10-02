@@ -5,6 +5,7 @@
 * Browsers: last 4 version
 */
 
+
 * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -138,8 +139,13 @@ button:hover {
 
 /* page title section */
 .title-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     text-align: center;
     line-height: 0;
     padding: 18px;
@@ -189,15 +195,43 @@ button:hover {
 
 /* profile section */
 .profile {
-    max-width: 700px;
-    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-grid-column-align: auto;
+        justify-self: auto;
+}
+
+@media screen and (max-width: 500px) {
+    .profile {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center;
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .profile {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .profile__portrait {
+        margin-right: 30px;
+    }
 }
 
 .profile__portrait {
-    float: left;
     width: 250px;
     height: auto;
-    margin-right: 40px;
 }
 
 /* ABOUT ME PAGE */
