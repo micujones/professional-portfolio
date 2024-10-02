@@ -136,6 +136,36 @@ button:hover {
     text-decoration: underline;
 }
 
+/* page title section */
+.title-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 0;
+    padding: 18px;
+}
+
+.title-section h1,
+.title-section h2 {
+    letter-spacing: 2px;
+}
+
+.title-section h1 {
+    font-size: 48px;
+    font-weight: 200;
+}
+
+.title-section h2 {
+    color: #9dc3f9;
+    margin-top: 28px;
+    font-weight: 500;
+}
+
+.title-section p {
+    color: #ccc;
+}
+
+
 /* footer section */
 .page-footer {
     clear: both;
