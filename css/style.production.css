@@ -26,15 +26,6 @@ body {
     color: #fff;
 }
 
-main {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-}
-
 @media screen and (max-width: 500px) {
     main {
         max-width: 100%;
