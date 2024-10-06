@@ -5,6 +5,9 @@
 * Browsers: last 4 version
 */
 
+html {
+    width: fit-content;
+}
 
 * {
     -webkit-box-sizing: border-box;
@@ -20,7 +23,20 @@ body {
 }
 
 main {
-    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        max-width: 100%;
+        padding: 4px;
+    }
+}
+@media screen and (min-width: 500px) {
+    main {
+        padding: 16px;
+    }
 }
 
 h1, h2, h3, h4 {
@@ -410,6 +426,7 @@ button:hover {
 }
 
 /* CONTACT PAGE */
+
 form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -418,7 +435,18 @@ form {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    /* background-color: #2e3339; */
+}
+
+@media screen and (max-width: 500px) {
+    form {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    
+}
+form {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
