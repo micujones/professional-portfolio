@@ -198,6 +198,7 @@ button:hover {
 
 /* footer section */
 .page-footer {
+    clear: both;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -208,7 +209,6 @@ button:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 16px;
 }
 
 .social-media {
@@ -443,23 +443,12 @@ form {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-}
-
-@media screen and (max-width: 500px) {
-    form {
-        width: 90%;
-    }
-}
-
-@media screen and (min-width: 500px) {
-    
-}
-form {
+    background-color: #2e3339;
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
     padding: 16px;
-    margin: 0 auto ;
+    margin: 0 auto;
     border-radius: 8px;
     gap: 16px;
 }
@@ -472,9 +461,9 @@ form > h2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-column-gap: 16px;
-       -moz-column-gap: 16px;
-            column-gap: 16px;
+    -webkit-column-gap: 8px;
+       -moz-column-gap: 8px;
+            column-gap: 8px;
 }
 
 .label-input-pair {
@@ -495,11 +484,4 @@ form > h2 {
     min-width: 400px;
     max-width: 400px;
     height: 100px;
-}
-
-input, textarea {
-    background-color: transparent;
-    border-width: 0 0 2px 0;
-    border-color: #fff;
-    color: #fff;
 }
